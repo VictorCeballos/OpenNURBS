@@ -31,7 +31,7 @@
 
 // If you wish to build your application for a previous Windows platform, include WinSDKVer.h and
 // set the _WIN32_WINNT macro to the platform you wish to support before including SDKDDKVer.h.
-#if !defined(RHINO_SDK_WINVER_H_INCLUDED_)
+/*#if !defined(RHINO_SDK_WINVER_H_INCLUDED_)
 
 #if defined(OPENNURBS_PLUS)
 
@@ -53,7 +53,7 @@
 
 #endif
 
-#endif
+#endif*/
 
 #pragma ON_PRAGMA_WARNING_BEFORE_DIRTY_INCLUDE
 #include <SDKDDKVer.h>
